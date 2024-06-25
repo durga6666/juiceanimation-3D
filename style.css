@@ -27,6 +27,18 @@ h3{
 span{
     animation: colorC 1s ease-out 1s infinite ;
 }
+a{
+    color: #141010;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.1);
+    color:#826969;
+}
+a::after{
+    color: #141010;
+    text-decoration: none;
+}
 @keyframes colorC {
     0%{
         color: #141010;
